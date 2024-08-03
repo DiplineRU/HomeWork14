@@ -12,6 +12,6 @@ public class Bicycle extends Transport implements HasTyres {
 
     @Override
     public void chek() {
-    chek(this);
+    chekTyres(this);
     }
 }
