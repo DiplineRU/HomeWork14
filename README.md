@@ -5,6 +5,8 @@ RU text
 
 ### Обязательные для выполнения блоки кода
 1-й блок кода. Пример с велосипедом
+
+```
 public class Bicycle {
 
     public String modelName;
@@ -14,7 +16,10 @@ public class Bicycle {
         System.out.println("Меняем покрышку");
     }
 }
+```
+
 2-й блок кода. Пример с машиной
+```
 public class Car {
 
     public String modelName;
@@ -28,7 +33,9 @@ public class Car {
         System.out.println("Проверяем двигатель");
     }
 }
+```
 3-й блок кода. Пример с сервисной станцией
+```
 public class ServiceStation {
     public void check(Car car, Bicycle bicycle, Truck truck) {
         if (car != null) {
@@ -52,7 +59,9 @@ public class ServiceStation {
         }
     }
 }
+```
 4-й блок кода. Пример с грузовой машиной
+```
 public class Truck {
 
     public String modelName;
@@ -70,7 +79,9 @@ public class Truck {
         System.out.println("Проверяем прицеп");
     }
 }
+```
 5-й блок кода. Общий пример
+```
 public class Main {
     public static void main(String[] args) {
         Car car = new Car();
@@ -103,6 +114,7 @@ public class Main {
         station.check(null, null, truck2);
     }
 }
+```
 ENG text
 > Below you are given several blocks of code. Your task is to use the code so that it teaches the learned principles of OOP. 
 There is no complicated and simple equation here, you need to go through all the code blocks. Please send the full proposal link to the project on GitHub.
@@ -110,7 +122,9 @@ There is no complicated and simple equation here, you need to go through all the
 
 ### Binders for executing a block of code
 The 1st block of the code. An example with
-a bicycle is a public bicycle
+a bicycle is a 
+```
+public bicycle
 
     the public string ModelName;
     common wheel ring int;
@@ -119,8 +133,11 @@ a bicycle is a public bicycle
 System.out.println ("Changing the postcard");
     }
 }
+```
 The 2nd block of the code. The example with the car
-is the public Car class {
+is the 
+```
+public Car class {
 
     the public string ModelName;
     public int wheelsCount;
@@ -133,7 +150,9 @@ System.out.println ("Changing the password");
 System.out.println ("Checking the driver");
     }
 }
+```
 the 3rd block of the code. Example with a service station
+```
 public class ServiceStation {
     public invalidity check (passenger car, bike-bike, truck-truck) {
 if (car != null) {
@@ -157,8 +176,11 @@ bicycle.Update Tyre();
         }
     }
 }
+```
 The 4th block of the code. An example with
-a truck is a public truck
+a truck is a 
+```
+public truck
 
     the public string ModelName;
     publicly available;
@@ -175,8 +197,11 @@ System.out.println ("Checking the driver");
 System.out.println ("Checking the step");
     }
 }
+```
 The 5th block of the code. A general example
-is the public Main class {
+is the 
+```
+public Main class {
     public static void main (string of[] arguments) {
 Car car = new car();
 Car car2 = new car();
@@ -208,3 +233,4 @@ station.check(car, null, null);
         station.check(null, null, truck2);
     }
 }
+```
